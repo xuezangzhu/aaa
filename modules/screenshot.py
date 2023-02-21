@@ -2,7 +2,7 @@ import os
 import win32gui, win32ui, win32con, win32api
 
 
-def window_capture():
+def run():
     print("screenshot")
     if os.path.exists("filename.jpg"):
         os.remove("filename.jpg")
